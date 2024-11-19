@@ -23,9 +23,9 @@ h1 {
     display: flex;
 }
 
-.name_input,
-.address_input,
-.age_input {
+.name_input_wrapper,
+.address_input_wrapper,
+.age_input_wrapper {
     display: flex;
     margin-bottom: 5px;
 }
@@ -34,8 +34,8 @@ h1 {
     padding: 2px 6px;
 }
 
-.name_input,
-.address_input {
+.name_input_wrapper,
+.address_input_wrapper {
     font-size: 12px;
 }
 
@@ -54,7 +54,7 @@ select {
     margin-left: 8px;
 }
 
-.contact_ta {
+.contact_area {
     width: 400px;
     margin-bottom: 20px;
     font-size: 16px;
